@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // TODO: define authUser
     private fun authUser(executor: Executor) {
         // 1
         val promptInfo = BiometricPrompt.PromptInfo.Builder()
